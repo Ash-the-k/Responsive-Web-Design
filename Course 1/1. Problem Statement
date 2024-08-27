@@ -1,0 +1,95 @@
+Problem Statement
+Create a simple webpage called "CatPhotoApp" that showcases your favorite cat-related content. The webpage should have the following sections:
+
+Main Heading: The webpage should have a main heading that reads "CatPhotoApp".
+
+Cat Photos Section:
+
+Include a secondary heading titled "Cat Photos".
+Add a paragraph that invites users to view more cat photos in a gallery, with a hyperlink that opens in a new tab. The link should point to https://freecatphotoapp.com.
+Emphasize the word "more" in the paragraph by making it italic.
+Embed an image of a relaxing cat, making sure the image is linked so that clicking on it takes the user to https://freecatphotoapp.com.
+Use this image URL: https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg. Provide an alternative description for the image for accessibility.
+Cat Lists Section:
+
+Include a secondary heading titled "Cat Lists".
+Under this, create a subheading for "Things cats love:" and list three items that cats love (e.g., catnip, laser pointers, lasagna) using a bulleted list.
+Add an image of lasagna with a caption stating that cats love lasagna. The word "love" should be italicized.
+Use this image URL: https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg.
+Create another subheading for "Top 3 things cats hate:" and list three items that cats hate (e.g., flea treatment, thunder, other cats) using a numbered list.
+Add an image of five cats in a field with a caption stating that cats hate other cats. The word "hate" should be bolded.
+Use this image URL: https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg.
+Cat Form Section:
+
+Include a secondary heading titled "Cat Form".
+Create a form with the following fields:
+A radio button group that asks whether the cat is an indoor or outdoor cat, with "Indoor" selected by default.
+A checkbox group that asks about the cat's personality with options like "Loving," "Lazy," and "Energetic." The "Loving" option should be checked by default.
+A text input field for users to enter a cat photo URL, with a placeholder text saying "cat photo URL".
+A submit button that sends the form data to https://freecatphotoapp.com/submit-cat-photo.
+Ensure all form fields are appropriately labeled for accessibility.
+Footer:
+
+Add a footer at the bottom of the page that reads "No Copyright - freeCodeCamp.org" and includes a hyperlink to https://www.freecodecamp.org.
+Challenge: Write the HTML code for this webpage based on the description above. Make sure to include all the specified links, images, and elements in your code. Remember to emphasize and style the specified text using italics and bold where instructed. This will test your understanding of structuring an HTML document, creating various HTML elements, and linking resources.
+
+Good luck!
+
+
+
+
+
+
+
+Problem Statement
+Create a simple webpage called "CatPhotoApp" that showcases your favorite cat-related content. The webpage should have the following sections:
+
+Main Heading: The webpage should have a main heading that reads "CatPhotoApp".
+
+Cat Photos Section:
+
+    Include a secondary heading titled "Cat Photos".
+
+    Add a paragraph that invites users to view more cat photos in a gallery, with a hyperlink that opens in a new tab. 
+    The link should point to https://freecatphotoapp.com.
+
+    Embed an image of a relaxing cat, making sure the image is linked so that clicking on it takes the user to https://freecatphotoapp.com.
+    Use this image URL: https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg. Provide an alternative description for the image for accessibility.
+
+
+
+Cat Lists Section:
+    Include a secondary heading titled "Cat Lists".
+
+    Under this, create a subheading for "Things cats love:" 
+    and list three items that cats love (e.g., catnip, laser pointers, lasagna) using a bulleted list.
+
+    Add an image of lasagna with a caption stating that cats love lasagna. 
+    Use this image URL: https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg.
+-
+    Create another subheading for "Top 3 things cats hate:" 
+
+    and list three items that cats hate (e.g., flea treatment, thunder, other cats) using a numbered list.
+    Add an image of five cats in a field with a caption stating that cats hate other cats. 
+    Use this image URL: https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg.
+
+
+Cat Form Section:
+
+    Include a secondary heading titled "Cat Form".
+
+    Create a form with the following fields:
+
+    A radio button group that asks whether the cat is an indoor or outdoor cat, with "Indoor" selected by default.
+
+    A checkbox group that asks about the cat's personality with options like "Loving," "Lazy," and "Energetic." The "Loving" option should be checked by default.
+
+    A text input field for users to enter a cat photo URL, with a placeholder text saying "cat photo URL".
+
+    A submit button that sends the form data to https://freecatphotoapp.com/submit-cat-photo.
+
+    Ensure all form fields are appropriately labeled for accessibility.
+
+Footer:
+
+Add a footer at the bottom of the page that reads "No Copyright - freeCodeCamp.org" and includes a hyperlink to https://www.freecodecamp.org.

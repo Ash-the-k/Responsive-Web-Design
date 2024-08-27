@@ -1,0 +1,35 @@
+Problem Statement for Course 2: “Responsive Web Design”
+
+Create a Cafe Menu webpage called “CAMPER CAFE” that displays a list of coffee and dessert items available at the cafe. The webpage should be styled using an external CSS file and include the following sections:
+
+	1.	Page Setup:
+	•	Set the webpage’s title to “Cafe Menu” and ensure the page is responsive across different devices.
+	•	Link a CSS file named styles.css to the HTML document for styling.
+	2.	Main Structure:
+	•	The main content should be centered on the page with a maximum width of 500 pixels and a width of 80% of the viewport.
+	•	The container should have a burlywood background color, 20 pixels of padding, and be centered using automatic left and right margins.
+	3.	Background and Fonts:
+	•	Set a background image of coffee beans for the entire page using this URL: https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg.
+	•	Use a sans-serif font for the entire page, with text within headings centered.
+	•	The main heading should use the Impact font, with a size of 40 pixels, a top margin of 0 pixels, and a bottom margin of 15 pixels.
+	•	Subheadings should use the Impact font with a size of 30 pixels.
+	•	Style the “Est. 2020” text to be italicized, centered, and aligned with the main heading.
+	4.	Sections:
+	•	Coffee Section:
+	•	Create a section titled “Coffee” with a subheading and an image of a coffee icon. Use this image URL: https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg.
+	•	List the following coffee items with their prices:
+	•	French Vanilla – $3.00
+	•	Caramel Macchiato – $3.75
+	•	Pumpkin Spice – $3.50
+	•	Hazelnut – $4.00
+	•	Mocha – $4.50
+	•	Ensure that each item name appears on the left and its price on the right, both on the same line.
+	•	Set the margins for these items to 5 pixels on the top and bottom.
+	•	Set the font size for these items to 18 pixels.
+	•	Desserts Section:
+	•	Create a section titled “Desserts” with a subheading and an image of a pie icon. Use this image URL: https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg.
+	•	List the following dessert items with their prices:
+	•	Donut – $1.50
+	•	Cherry Pie – $2.75
+	•	Cheesecake – $3.00
+	•	Cinnamon Roll – $2.50

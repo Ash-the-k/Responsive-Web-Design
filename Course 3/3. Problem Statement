@@ -1,0 +1,79 @@
+Problem Statement:
+
+You are tasked with creating a webpage that features a set of colored markers. Use the following guidelines to build your page:
+
+	1.	Page Layout:
+	•	Include a centered heading at the top of the page with the text “CSS Color Markers”.
+	
+
+	2.	Marker Design:
+	•	Create a container that holds three markers.
+	•	Each marker should consist of two horizontal sections.
+	•	Ensure the markers are centered horizontally within the container.
+	•	The markers should have a set width and height.
+
+	3.	Marker Styles:
+	•	Red Marker:
+	•	Apply a gradient background from rgb(122, 74, 14) to rgb(245, 62, 113) to rgb(162, 27, 27).
+	•	Add a shadow effect with a blur radius of 20px using rgba(83, 14, 14, 0.8).
+
+	•	Green Marker:
+	•	Apply a gradient background from #55680D to #71F53E to #116C31.
+	•	Add a shadow effect with a blur radius of 20px using #3B7E20CC.
+
+	•	Blue Marker:
+	•	Apply a gradient background from hsl(186, 76%, 16%) to hsl(223, 90%, 60%) to hsl(240, 56%, 42%).
+	•	Add a shadow effect with a blur radius of 20px using hsla(223, 59%, 31%, 0.8).
+
+
+	4.	Marker Components:
+	•	Each marker should have a top section and a bottom section.
+	•	The top section should be placed to the left, and the bottom section should be placed to the right of it.
+
+	5.	Container Styles:
+	•	Set the background color of the container to white.
+	•	Apply vertical padding within the container to ensure the markers are spaced nicely from the top and bottom edges.
+
+	6.	General Styles:
+	•	Ensure the heading is centered on the page.
+	•	Apply spacing around the markers to prevent them from touching each other.
+
+
+
+
+Objective:
+Create a simple webpage that displays three colored markers using HTML and CSS. Your task is to style the markers using gradients, shadows, and various color formats.
+
+Requirements:
+
+	1.	Title and Header:
+	•	The page should have the title “Colored Markers” displayed at the top center of the page.
+	•	Use a heading at the top of the page with the text “CSS Color Markers.” The heading should be centered.
+
+
+	2.	Container:
+	•	All markers should be placed inside a container.
+	•	The container should have a white background (rgb(255, 255, 255)) and padding of 10 pixels on the top and bottom.
+	•	The markers should be stacked vertically within this container.
+
+	3.	Markers:
+	•	Each marker should consist of two parts: a cap on the left and a sleeve on the right.
+	•	The markers should have a total width of 200 pixels and a height of 25 pixels. 
+		Center the markers horizontally within the container, with a margin of 10 pixels on the top and bottom.
+	•	The cap should have a width of 60 pixels, while the sleeve should have a width of 110 pixels.
+	•	The cap and sleeve should be displayed side by side on the same line.
+
+	4.	Marker Colors:
+	•	Red Marker:
+	•	Use a linear gradient background that transitions from brown to pink to red.
+	•	Add a shadow to the marker that creates a dark red glow.
+	•	Green Marker:
+	•	Use a linear gradient background that transitions from dark olive to neon green to forest green.
+	•	Add a shadow to the marker that creates a green glow.
+	•	Blue Marker:
+	•	Use a linear gradient background that transitions from dark teal to bright blue to deep blue.
+	•	Add a shadow to the marker that creates a dark blue glow.
+	
+	5.	Cap and Sleeve:
+	•	The sleeve part of each marker should have a semi-transparent white background.
+	•	Add a left border to the sleeve that is 10 pixels wide, double-styled, and black with 75% opacity.

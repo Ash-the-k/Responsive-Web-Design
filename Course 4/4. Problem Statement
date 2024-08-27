@@ -1,0 +1,54 @@
+Problem Statement: Build a Responsive Registration Form
+
+Objective: Create a responsive registration form that collects user information, styled with a dark theme and organized into distinct sections. Follow the instructions below to ensure your form looks and functions exactly as required.
+
+	1.	Create the Basic Structure:
+	•	Start by setting up an HTML document with the appropriate language and character encoding.
+	•	In the document’s head, include a title for the page and link an external stylesheet named styles.css.
+	•	In the body, include a main heading centered on the page, followed by a brief paragraph prompting the user to fill out the form.
+	2.	Form Setup:
+	•	Design a form that sends data using the “POST” method to a provided URL (use any URL for now, you can replace it later).
+	•	The form should be organized into three distinct sections, each separated by a horizontal line at the bottom except for the last section.
+	3.	First Section - Personal Information:
+	•	Create a section where users can input their first name, last name, email, and create a password.
+	•	Each input field should have a descriptive label placed directly above it.
+	•	Ensure that the first name and last name fields accept plain text and are required to fill out.
+	•	The email field should validate that the input is in an email format and is required.
+	•	For the password field, enforce a pattern that requires a combination of lowercase letters and numbers, with a minimum length of 8 characters.
+	4.	Second Section - Account Type:
+	•	Provide two options for the user to select their account type: “Personal” or “Business.”
+	•	Place these options horizontally next to each other, with a label indicating that this choice is required.
+	•	Ensure that the “Personal” option is pre-selected by default.
+	5.	Third Section - Additional Information:
+	•	Allow users to upload a profile picture by including a file upload option.
+	•	Include an age input field where users can enter their age, restricted to a minimum of 13 and a maximum of 120 years.
+	•	Below the age field, create a dropdown list where users can select how they heard about your service. Provide four options in the dropdown: a placeholder that prompts users to select an option, followed by three specific sources and one “Other” option.
+	•	Include a multiline text box where users can provide a short bio. The text box should display three lines of text and span a certain width (you’ll later set it using CSS). It should also have a placeholder that hints at what the user might write.
+	6.	Final Section - Terms and Submission:
+	•	At the bottom of the form, include a checkbox that users must check to accept the terms and conditions.
+	•	Add a link to the terms and conditions next to the checkbox, ensuring it is visually distinct.
+	7.	Submit Button:
+	•	Finally, add a button that users can click to submit the form. This button should be centered on the page and styled to stand out with a specific height, width, and font size.
+    
+    Styling Requirements:
+
+	1.	General Layout:
+	•	The form should be centered on the page with a width of 60% of the viewport width (min-width: 300px, max-width: 500px).
+	•	The background color of the page should be #1b1b32, and the text color should be #f5f6f7.
+	•	Use the Tahoma font family with a base font size of 16px for the entire page.
+	2.	Title and Paragraph:
+	•	The title should have a margin of 1em auto and be centered.
+	•	The introductory paragraph should also have a margin of 1em auto and be centered.
+	3.	Form Fields:
+	•	Each form field (input, textarea, select) should have a full width, taking up 100% of its container, with a minimum height of 2em.
+	•	The form fields should have a background color of #0a0a23, with a border of 1px solid #0a0a23, and the text inside should be white.
+	•	Each label should be displayed as a block element with a margin of 0.5rem 0.
+	•	The radio buttons and checkboxes should be aligned with their labels, and they should be displayed inline.
+	4.	Fieldsets:
+	•	Each section of the form (grouped by fieldsets) should have padding of 2rem 0, with a border-bottom of 3px solid #3b3b4f.
+	•	The last fieldset should not have a border-bottom.
+	5.	Submit Button:
+	•	The submit button should have a width of 60% of the form’s container, with a margin of 1em auto, a height of 2em, and a font size of 1.1rem.
+	•	The background color of the button should be #3b3b4f, with a white border.
+	6.	Footer Link:
+	•	The footer link “terms and conditions” should have the color #dfdfe2.
