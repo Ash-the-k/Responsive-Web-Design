@@ -1,0 +1,58 @@
+Problem Statement: Recreate a Rothko-Inspired Painting
+
+You are tasked with creating a web page that replicates a Rothko-inspired painting using HTML and CSS. Follow the instructions below to ensure that your final result matches the intended design.
+
+HTML Structure:
+
+	1.	Create a basic HTML document:
+	•	Set the language to English.
+	•	Include a meta tag for character encoding (UTF-8).
+	•	Add a title that reflects the content of the page.
+	•	Link an external CSS file named styles.css for styling.
+	2.	Structure the content:
+	•	Inside the body, create a parent div element with a class representing a structure that will hold the canvas.
+	•	Inside this parent div, create another div element representing the canvas where the painting will be displayed.
+	•	Inside the canvas div, create three div elements, each representing a different colored block of the painting.
+
+Styling Requirements:
+
+	1.	Canvas:
+	•	Set the width to 500px and the height to 600px.
+	•	The background color should be a dark reddish-brown (#4d0f00).
+    •	Ensure that any content overflowing the canvas is hidden.
+	•	Apply a blur effect of 2px to the entire canvas.
+    
+	2.	Frame:
+	•	Apply a solid black border with a thickness of 50px.
+	•	The width of the frame should be 500px.
+	•	Add padding of 50px inside the frame.
+	•	Center the frame horizontally with an automatic margin and add 20px of space above and below it.
+
+	3.	First Block (Top):
+	•	Set the width to 425px and the height to 150px.
+	•	The background color should be a warm yellowish tone (#efb762).
+	•	Center the block horizontally and add 20px of space above it.
+	•	Apply a box shadow with 3px spread, matching the block’s background color.
+	•	Round the corners with a radius of 9px.
+	•	Slightly rotate the block counterclockwise by 0.6 degrees.
+	•	Apply a blur effect of 1px.
+
+	4.	Second Block (Middle):
+	•	Set the width to 475px and the height to 200px.
+	•	The background color should be a deep red (#8f0401).
+	•	Center the block horizontally with no space above and 20px below.
+	•	Apply a box shadow with 3px spread, matching the block’s background color.
+	•	Round the corners with radii of 8px for the top-left/bottom-right corners and 10px for the top-right/bottom-left corners.
+	•	Slightly rotate the block clockwise by 0.4 degrees.
+	•	Apply a blur effect of 1px.
+
+	5.	Third Block (Bottom):
+	•	Set the width to 91% of its container and the height to 28% of its container.
+	•	The background color should be a vibrant red (#b20403).
+	•	Center the block horizontally within its container.
+	•	Apply a blur effect of 2px.
+	•	Apply a box shadow with 5px spread, matching the block’s background color.
+	•	Round the corners with different radii: 30px (top-left), 25px (top-right), 60px (bottom-right), and 12px (bottom-left).
+	•	Slightly rotate the block counterclockwise by 0.2 degrees.
+
+Ensure that you adhere to these specifications to create an accurate replication of the Rothko-inspired painting.

@@ -1,0 +1,62 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth; /* Enables smooth scrolling */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+section {
+    padding: 80px 20px; /* Padding to account for fixed header */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: background-color 0.3s ease; /* Smooth background transition */
+}
+
+section#home {
+    height: 100vh; /* Home section fits the full height of the viewport */
+    background-color: #f44336; /* Red */
+}
+
+section#about {
+    background-color: #2196F3; /* Blue */
+    height: auto; /* Normal height */
+}
+
+section#services {
+    background-color: #4CAF50; /* Green */
+    height: auto; /* Normal height */
+}
+
+section#contact {
+    background-color: #FF9800; /* Orange */
+    height: auto; /* Normal height */
+}
+
+section h2 {
+    font-size: 2em;
+}
+
+section p {
+    font-size: 1.2em;
+    max-width: 600px;
+}

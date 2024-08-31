@@ -1,0 +1,70 @@
+### Problem Statement: Photo Gallery with Flexbox
+
+**Objective:**
+Create a photo gallery webpage using HTML and CSS that displays a collection of images in a responsive, flexbox-based layout.
+
+---
+
+**HTML Structure:**
+1. Start with the basic HTML5 structure.
+2. Set the document's language to English.
+3. Ensure the character encoding is set to UTF-8.
+4. Include a `meta` tag to make the page responsive on all devices.
+5. Set the title of the webpage to "Photo Gallery".
+6. Link an external CSS file named `styles.css`.
+
+7. In the body:
+   - Create a `header` containing an `h1` element with the text "css flexbox photo gallery".
+   - Below the header, create a `div` element with a class of `gallery`.
+   - Inside the `gallery` div, add nine `img` elements. Use the following image sources and provide alternative text for each:
+     - Image 1: "https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg"
+     - Image 2: "https://cdn.freecodecamp.org/curriculum/css-photo-gallery/2.jpg"
+     - Image 3: "https://cdn.freecodecamp.org/curriculum/css-photo-gallery/3.jpg"
+     - Image 4: "https://cdn.freecodecamp.org/curriculum/css-photo-gallery/4.jpg"
+     - Image 5: "https://cdn.freecodecamp.org/curriculum/css-photo-gallery/5.jpg"
+     - Image 6: "https://cdn.freecodecamp.org/curriculum/css-photo-gallery/6.jpg"
+     - Image 7: "https://cdn.freecodecamp.org/curriculum/css-photo-gallery/7.jpg"
+     - Image 8: "https://cdn.freecodecamp.org/curriculum/css-photo-gallery/8.jpg"
+     - Image 9: "https://cdn.freecodecamp.org/curriculum/css-photo-gallery/9.jpg"
+
+---
+
+**Styling Requirements:**
+
+1. **Global Styles:**
+   - Apply `box-sizing: border-box;` to all elements using the universal selector.
+   - Remove default margin from the body.
+   - Set the `font-family` of the body to sans-serif.
+   - Set the background color of the body to `#f5f6f7`.
+
+2. **Header Styling:**
+   - Center the text inside the header.
+   - Transform the text to uppercase.
+   - Apply `padding` of `32px` to the header.
+   - Set the background color of the header to `#0a0a23` (dark blue).
+   - Change the text color to white (`#fff`).
+   - Add a solid border at the bottom of the header that is `4px` thick and has a color of `#fdb347` (yellow).
+
+3. **Gallery Styling:**
+   - Use flexbox to arrange the images in a row.
+   - Allow the images to wrap onto the next line when necessary.
+   - Center the images horizontally within the gallery.
+   - Center the images vertically within each row.
+   - Maintain a gap of `16px` between the images.
+   - Limit the maximum width of the gallery to `1400px`.
+   - Center the gallery div on the page.
+   - Add `padding` of `20px` on the top and bottom, and `10px` on the left and right.
+
+4. **Image Styling:**
+   - Ensure the images are responsive by setting their width to `100%`.
+   - Set the maximum width of each image to `350px`.
+   - Fix the height of each image at `300px`.
+   - Make sure the images cover the entire container without distortion.
+   - Round the corners of the images using a `border-radius` of `10px`.
+
+5. **Additional Styling:**
+   - Use the `::after` pseudo-element on the `gallery` div to add an invisible block with a width of `350px` to ensure even alignment of images.
+
+---
+
+The gallery should be responsive and look visually balanced across different screen sizes. Make sure to follow the specifications precisely to match the intended design.
