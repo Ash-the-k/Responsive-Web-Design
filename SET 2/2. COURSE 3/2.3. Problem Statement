@@ -1,0 +1,47 @@
+### Revised Problem Statement
+
+Create a **Nutrition Facts Label** similar to what is commonly found on food packaging. Follow these guidelines:
+
+Use Google Fonts for styling by linking the Open Sans font family (400, 700, 800 weig
+
+1. **Header Section**:
+   - Display the title "Nutrition Facts" in bold, centered.
+   - Show that there are "8 servings per container."
+   - Include "Serving size 2/3 cup (55g)" right below the servings per container.
+
+2. **Calories Info**:
+   - Display the calories as "230" on the right side, aligned with the text "Calories" on the left.
+   - Above this, include "Amount per serving" in smaller text.
+
+3. **Daily Value Section**:
+   - Display various nutritional facts such as:
+     - **Total Fat**: 8g (10%)
+       - **Saturated Fat**: 1g (5%) indented under Total Fat.
+       - **Trans Fat**: 0g further indented.
+     - **Cholesterol**: 0mg (0%)
+     - **Sodium**: 160mg (7%)
+     - **Total Carbohydrate**: 37g (13%)
+       - **Dietary Fiber**: 4g indented under Total Carbohydrate.
+       - **Total Sugars**: 12g indented.
+         - **Includes 10g Added Sugars** further indented (20%).
+     - **Protein**: 3g
+   - Ensure the daily value percentages (e.g., "10%", "5%") are aligned to the right.
+
+4. **Additional Nutrients**:
+   - Display other nutrients such as:
+     - **Vitamin D**: 2mcg (10%)
+     - **Calcium**: 260mg (20%)
+     - **Iron**: 8mg (45%)
+     - **Potassium**: 235mg (6%)
+
+5. **Footer Section**:
+   - Include a note: "* The % Daily Value (DV) tells you how much a nutrient in a serving of food contributes to a daily diet. 2,000 calories a day is used for general nutrition advice."
+
+6. **Styling**:
+   - Use appropriate indentations for nested elements like **Saturated Fat** and **Added Sugars**.
+   - Include necessary margins and padding to ensure spacing between sections.
+   - Add dividers between key sections.
+   - Apply bold styling where needed, especially for nutrient names and daily values.
+   - The label should have a clean, minimal design with black text on a white background, and thin borders.
+
+Feel free to incorporate any extra details for spacing, alignment, and other design elements.
