@@ -19,19 +19,12 @@ html{
     width: 270px;
     margin: 20px auto;
     padding: 0 7px;
-
 }
 
 header h1{
     text-align: center;
     margin: -4px 0 ;
     letter-spacing: 0.15px;
-}
-
-p{
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
 }
 
 .divider{
@@ -52,9 +45,20 @@ p{
     border: 0;
 }
 
+
+
+p{
+    margin: 0;
+
+        display: flex;
+        justify-content: space-between;
+}
+
+
 .small-text{
     font-size: 0.85rem;
 }
+
 
 .calories-info h2{
     margin: 0;

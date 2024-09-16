@@ -1,47 +1,90 @@
-### Revised Problem Statement
+### Problem Statement: Nutrition Facts Label
 
-Create a **Nutrition Facts Label** similar to what is commonly found on food packaging. Follow these guidelines:
+**Objective:** Create a Nutrition Facts label similar to those found on food packaging, using HTML and CSS. Follow the detailed styling instructions to ensure accuracy.
 
-Use Google Fonts for styling by linking the Open Sans font family (400, 700, 800 weig
+#### 1. **HTML Structure:**
+- Link the **Open Sans** font family with weights 400, 700, and 800 in the `<head>` section of your HTML file:
+  ```html
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800">
+  ```
+- Create a container for the nutrition label using a `<div>` with the class `label`.
+- Inside the container:
+  - Add a header section with:
+    - A heading (`<h1>`) for **"Nutrition Facts"**.
+    - A line for **"8 servings per container"**.
+    - Another line for **"Serving size 2/3 cup (55g)"** where the serving size is bold.
 
-1. **Header Section**:
-   - Display the title "Nutrition Facts" in bold, centered.
-   - Show that there are "8 servings per container."
-   - Include "Serving size 2/3 cup (55g)" right below the servings per container.
+  - Add a large divider (`<div>`) below the header with the class `divider large`.
 
-2. **Calories Info**:
-   - Display the calories as "230" on the right side, aligned with the text "Calories" on the left.
-   - Above this, include "Amount per serving" in smaller text.
+  - Include a section for **Calories Information**:
+    - Create a section with a heading (`<h2>`) for **"Amount per serving"**.
+    - Show the text **"Calories"** and the value **"230"**. Align the value to the right.
 
-3. **Daily Value Section**:
-   - Display various nutritional facts such as:
-     - **Total Fat**: 8g (10%)
-       - **Saturated Fat**: 1g (5%) indented under Total Fat.
-       - **Trans Fat**: 0g further indented.
-     - **Cholesterol**: 0mg (0%)
-     - **Sodium**: 160mg (7%)
-     - **Total Carbohydrate**: 37g (13%)
-       - **Dietary Fiber**: 4g indented under Total Carbohydrate.
-       - **Total Sugars**: 12g indented.
-         - **Includes 10g Added Sugars** further indented (20%).
-     - **Protein**: 3g
-   - Ensure the daily value percentages (e.g., "10%", "5%") are aligned to the right.
+  - Add a medium divider (`<div>`) below the Calories Information with the class `divider medium`.
 
-4. **Additional Nutrients**:
-   - Display other nutrients such as:
-     - **Vitamin D**: 2mcg (10%)
-     - **Calcium**: 260mg (20%)
-     - **Iron**: 8mg (45%)
-     - **Potassium**: 235mg (6%)
+  - Create a section for **Daily Values**:
+    - Display the header **"% Daily Value"** aligned to the right.
+    - List the nutrients with their values and percentages:
+      - **Total Fat**: 8g (10%)
+        - **Saturated Fat**: 1g (5%) – Indent this under Total Fat.
+        - **Trans Fat**: 0g – Further indent this under Saturated Fat.
+      - **Cholesterol**: 0mg (0%)
+      - **Sodium**: 160mg (7%)
+      - **Total Carbohydrate**: 37g (13%)
+        - **Dietary Fiber**: 4g – Indent this under Total Carbohydrate.
+        - **Total Sugars**: 12g – Further indent this under Dietary Fiber.
+          - **Includes 10g Added Sugars** (20%) – Apply extra indentation.
+      - **Protein**: 3g – No percentage.
 
-5. **Footer Section**:
-   - Include a note: "* The % Daily Value (DV) tells you how much a nutrient in a serving of food contributes to a daily diet. 2,000 calories a day is used for general nutrition advice."
+  - Add a medium divider (`<div>`) below the Daily Values with the class `divider medium`.
 
-6. **Styling**:
-   - Use appropriate indentations for nested elements like **Saturated Fat** and **Added Sugars**.
-   - Include necessary margins and padding to ensure spacing between sections.
-   - Add dividers between key sections.
-   - Apply bold styling where needed, especially for nutrient names and daily values.
-   - The label should have a clean, minimal design with black text on a white background, and thin borders.
+  - Include a section for additional nutrients:
+    - **Vitamin D**: 2mcg (10%)
+    - **Calcium**: 260mg (20%)
+    - **Iron**: 8mg (45%)
+    - **Potassium**: 235mg (6%)
 
-Feel free to incorporate any extra details for spacing, alignment, and other design elements.
+  - Add a note at the bottom with:
+    - "* The % Daily Value (DV) tells you how much a nutrient in a serving of food contributes to a daily diet. 2,000 calories a day is used for general nutrition advice."
+
+#### 2. **CSS Styling:**
+
+
+
+- **Base Styles**:
+  - Set the base font size to **16px** in the `html` element.
+
+- **Container (`.label`)**:
+  - Width: **270px**
+  - Border: **2px solid black**
+  - Margin: **20px auto**
+  - Padding: **0 7px**
+
+- **Header (`header h1`)**:
+  - Center the text.
+  - Set margin to **-4px 0**.
+  - Use letter-spacing of **0.15px**.
+
+- **Paragraphs (`p`)**:
+  - Set paragraphs to use flexbox for spacing.
+  - Align text as follows:
+    - Nutritional values to the right where specified.
+    - Apply indentation where required (e.g., for sub-nutrients).
+
+- **Dividers (`.divider`)**:
+  - Regular divider: **1px solid #888989**
+  - Larger dividers: **5px or 10px solid black** for spacing.
+
+- **Font Sizes**:
+  - Standard text: **16px**
+  - Smaller text: **0.85rem** (e.g., for nutritional values and notes).
+  - Larger text: **2.4em** (e.g., for calorie values).
+
+- **Indentation**:
+  - Apply **1em** indentation for sub-nutrients.
+  - Apply **2em** indentation for further nested items (e.g., added sugars).
+
+- **Font Styling**:
+  - Use font weight **700** for bold text and **800** for extra bold text.
+
+By following these guidelines and including precise margin, padding, font sizes, and indentations, replicate a professional nutrition label layout.
