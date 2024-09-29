@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: Open Sans;
+}
+
+.label{
+    width: 270px;
+    border: 2px solid black;
+    margin: 20px auto;
+    padding: 0 7px;;
+}
+
+.divider{
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
+}
+
+.large{
+    border: 0;
+    height: 10px;
+    background-color: black;
+}
+
+.mid{
+    border: 0;
+    height: 5px;
+    background-color: black;
+}
+
+header h1{
+    margin: -4px 0;
+    text-align: center;
+    letter-spacing: 0.15px;
+}
+
+.bold{
+    font-weight: 800;
+}
+
+p{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.smtxt{
+    font-size: 0.85rem;
+}
+
+
+.cal{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.cal h2{
+    margin: 0;
+}
+
+.left p{
+    font-size: 2em;
+    font-weight: 700;
+    margin: -5px -2px;
+}
+
+.cal span{
+    font-size: 2.4em;
+    font-weight: 700;
+    margin: -7px -2px;
+}
+
+.right{
+    justify-content: flex-end;
+}
+
+.indent{
+    /* text-indent: 1em; */
+    margin-left: 1em;
+}
+
+.double-indent{
+    /* text-indent: 2em; */
+    margin-left: 2em;
+}
+
+.note{
+    font-size: 0.6rem;
+    margin: 5px 0;
+    padding: 0 8px;
+    text-indent: -8px;
+}
