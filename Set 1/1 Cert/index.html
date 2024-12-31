@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSDS Survey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <h1 id="title">Survey Form</h1>
+        <p id="description">This Form is to take a Survey of Computer Science & Engineering(Data Science) Students</p>
+        <hr>
+        <form action="" id="survey-form">
+            <h2>About You :</h2>
+            
+            <fieldset id="f1">
+                <label for="name" id="name-label">
+                    Name: <input type="text" id="name" placeholder="Enter your Name " required>
+                </label>
+    
+                <label for="email" id="email-label">
+                    Email ID: <input type="email" id="email" placeholder="Enter your Email ID " required>
+                </label>
+    
+                <label for="number" id="number-label">
+                    Age: <input type="number" id="number" min="18" max="25" placeholder="Enter your Age " required>
+                </label>
+
+                <label for="dropdown">
+                    <div id="drop">
+                    Which Year are you studying in</div>
+                    <select id="dropdown" required>
+                        <option value="" disabled selected>(Select option)</option>
+                        <option value="1">First Year</option>
+                        <option value="2">Second Year</option>
+                        <option value="3">Third Year</option>
+                        <option value="4">Fourth Year</option>
+                    </select>
+                    
+                </label>
+            </fieldset>
+            
+            <hr>
+
+            <h2>Survey : </h2>
+            <fieldset id="f2">
+                <div id="qn">
+                Will you further suggest our Branch to others:</div>
+                <label for="yes">
+                    <input type="radio" name="yes/no" id="yes" value="yes" checked> Yes
+                </label>
+                <label for="no">
+                    <input type="radio" name="yes/no" id="no" value="yes"> No
+                </label>
+            </fieldset>
+
+            <fieldset id="f2">
+                <div id="qn">
+                How Did you hear about our Dept:</div>
+                <label for="friends">
+                    <input type="checkbox" id="friends" value="friends"> From Friends
+                </label>
+                <label for="teachers">
+                    <input type="checkbox" id="teachers" value="teachers"> From Teachers
+                </label>
+                <label for="kcet">
+                    <input type="checkbox" id="kcet" value="kcet"> On KCET Form
+                </label>
+            </fieldset>
+
+            <hr>
+
+            <fieldset id="f2">
+                <label for="suggest">
+                    <div id="qn">
+                    Any suggestions you'd like to share ?</div>
+                    <textarea id="suggest" cols="50" rows="5" placeholder="Type your suggestions here . . . . . ."></textarea>
+                </label>
+            </fieldset>
+
+            <input type="submit" id="submit">
+            
+        </form>
+    </main>
+</body>
+</html>
